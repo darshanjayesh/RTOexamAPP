@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dj.Vehicleapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Vehicleapp">
+
+        <activity
+            android:name="com.dj.vehicleapp.learnerstest"
+            android:exported="true"
+            android:label="Learners test material"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+        <activity
+            android:name="com.dj.vehicleapp.basicsofvehicle"
+            android:exported="true"
+            android:label="Learners to license"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+
+        <activity
+            android:name="com.dj.vehicleapp.mock"
+            android:exported="true"
+            android:label="Mock"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity
+            android:name="com.dj.vehicleapp.result"
+            android:exported="true"
+            android:label="Result and Answers"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+        <activity
+            android:name="com.dj.vehicleapp.result1"
+            android:exported="true"
+            android:label="Result and Answers"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+        <activity
+            android:name="com.dj.vehicleapp.learnerstestmalayalam"
+            android:exported="true"
+            android:label="Learners test material(malayalam)"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+        <activity
+            android:name="com.dj.vehicleapp.malayalammock"
+            android:exported="true"
+            android:label="Mock"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.dj.vehicleapp.youtube"
+            android:exported="true"
+            android:label="Basics of vehicle"
+            android:parentActivityName="com.dj.vehicleapp.basicsofvehicle"
+            android:hardwareAccelerated="true"
+            />
+        <activity
+            android:name="com.dj.vehicleapp.youtube2"
+            android:exported="true"
+            android:label="H guidance"
+            android:parentActivityName="com.dj.vehicleapp.basicsofvehicle"
+            android:hardwareAccelerated="true"
+            />
+        <activity
+            android:name="com.dj.vehicleapp.AboutUs"
+            android:exported="true"
+            android:label="About us"
+            android:parentActivityName="com.dj.vehicleapp.MainActivity" />
+
+        <activity
+            android:name="com.dj.vehicleapp.splashscreen"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.dj.vehicleapp.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>
